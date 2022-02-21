@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="仅学习专用">
+  <meta name="keywords" content="Bilibili,哔哩哔哩,哔哩哔哩动画,哔哩哔哩弹幕网,弹幕视频,B站,弹幕,字幕,AMV,MAD,MTV,ANIME,动漫,动漫音乐,游戏,游戏解说,二次元,游戏视频,ACG,galgame,动画,番组,新番,初音,洛天依,vocaloid,日本动漫,国产动漫,手机游戏,网络游戏,电子竞技,ACG燃曲,ACG神曲,追新番,新番动漫,新番吐槽,巡音,镜音双子,千本樱,初音MIKU,舞蹈MMD,MIKUMIKUDANCE,洛天依原创曲,洛天依翻唱曲,洛天依投食歌,洛天依MMD,vocaloid家族,OST,BGM,动漫歌曲,日本动漫音乐,宫崎骏动漫音乐,动漫音乐推荐,燃系mad,治愈系mad,MAD MOVIE,MAD高燃">
+  <link rel="icon" href="./img/title-icon.ico">
+  <title>哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</title>
+  <script src="./js/index.js"></script>
+  <!-- webfonts -->
+  <link rel="stylesheet" href="./css/webfont/css/all.css">
+  <link rel="stylesheet" href="./css/iconfont/font_3161051_9fmg2aic2k7/iconfont.css">
+  <link rel="stylesheet" href="./css/pc.css">
+  <script src="./js/jQuery.min.js"></script>
+  <script src="./js/simulate-data.js"></script>
+  <script src="./js/pc.js"></script>
+</head>
+<body style="height: 2000px;">
+  <div class="topbar">
+    <h1 class="home-link">
+      哔哩哔哩
+      <a href="https://www.bilibili.com">
+      </a>
+    </h1>
+    <div class="topbar-link">
+      <a href="javascript:void(0);"></a>
+    </div>
+    <div class="topbar-navbar">
+      <ul class="navbar-left">
+        <li><a href="javascript:;"><span>首页</span></a></li>
+        <li><a class="animation-jumpup" href="javascript:;"><span>番剧</span></a></li>
+        <li class="live-container position-relative">
+          <a class="animation-jumpup" href="javascript:;"><span>直播</span></a>
+          <div class="drop-down-box">
+            <div class="live">
+              <div class="live-left">
+                <div class="drop-down-box-title">
+                  热门直播：
+                </div>
+                <div class="live-left-list line">
+                </div>
+              </div>
+              <div class="live-right">
+                <div class="drop-down-box-title">
+                  热门活动：
+                </div>
+                <div class="live-right-list">
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li  class="game-container position-relative">
+          <a class="animation-jumpup" href="javascript:;"><span>游戏中心</span></a>
+          <div class="drop-down-box">
+            <div class="game">
+              <div class="game-left line">
+              </div>
+              <div class="game-right">
+                <div class="drop-down-box-title">新游预告</div>
+                <div class="game-right-list">
+                  <div class="game-right-item-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a class="animation-jumpup" href="javascript:;"><span>会员购</span></a></li>
+        <li class="comic-container position-relative">
+          <a class="animation-jumpup" href="javascript:;"><span>漫画</span></a>
+          <div class="drop-down-box">
+            <div class="comic">
+              <div class="comic-left line">
+                <a href="javascript:;">
+                  <div class="comic-item-img">
+                    <picture>
+                      <img src="./img/topbar/navbar-left/comic/comic-left/1.jpg" alt="">
+                    </picture>
+                  </div>
+                  <p class="comic-item-title">一拳超人</p>
+                </a>
+                <a href="javascript:;">
+                  <div class="comic-item-img">
+                    <picture>
+                      <img src="./img/topbar/navbar-left/comic/comic-left/2.jpg" alt="">
+                    </picture>
+                  </div>
+                  <p class="comic-item-title">租借女友</p>
+                </a>
+                <a href="javascript:;">
+                  <div class="comic-item-img">
+                    <picture>
+                      <img src="./img/topbar/navbar-left/comic/comic-left/3.png" alt="">
+                    </picture>
+                  </div>
+                  <p class="comic-item-title">辉夜大小姐想让我告白 ~天才们的恋爱头脑战~</p>
+                </a>
+                <a href="javascript:;">
+                  <div class="comic-item-img">
+                    <picture>
+                      <img src="./img/topbar/navbar-left/comic/comic-left/4.jpg" alt="">
+                    </picture>
+                  </div>
+                  <p class="comic-item-title">工作细胞</p>
+                </a>
+              </div>
+              <div class="comic-right">
+                <div class="drop-down-box-title">人气漫画</div>
+                <div class="comic-right-list">
+                  <a href="javascript:;">
+                    <span class="comic-right-item-index">1</span>
+                    <span>乔乔的奇妙冒险（1-5部)</span>
+                  </a>
+                  <a href="javascript:;">
+                    <span class="comic-right-item-index">2</span>
+                    <span>名侦探柯南</span>
+                  </a>
+                  <a href="javascript:;">
+                    <span class="comic-right-item-index">3</span>
+                    <span>更衣人偶坠入爱河</span>
+                  </a>
+                  <a href="javascript:;">
+                    <span class="comic-right-item-index">4</span>
+                    <span>BLISS~极乐幻奇谭</span>
+                  </a>
+                  <a href="javascript:;">
+                    <span class="comic-right-item-index">5</span>
+                    <span>不小心救了江湖公敌</span>
+                  </a>
+                  <a href="javascript:;">
+                    <span class="comic-right-item-index">6</span>
+                    <span>幽冥诡匠</span>
+                  </a>
+                  <div class="comic-right-item-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a class="animation-jumpup" href="javascript:;"><span>赛事</span></a></li>
+        <!-- <li><a class="animation-jumpup" href="javascript:;"><span>闹小年</span></a></li> -->
+        <li class="clip-box">
+          <a href="javascript:void(1);">
+            <div class="animation-clipbox">
+              <span>拜年纪</span>
+              <img src="./img/topbar/bainianji.png">
+              <!-- <span>拜年纪</span> -->
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="navbar-middle">
+        <input type="text" placeholder="花滑美少女变大葱">
+        <button>
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+      <ul class="navbar-right">
+        <li class="head-portrait position-relative">
+          <a class="personal-space-link" href="javascript:;">
+            <div>
+              <img src="./img/topbar/head-portrait.webp" alt="">
+            </div>
+          </a>
+          <div class="drop-down-box">
+            <div class="detail-box">
+              <a class="detail-box-title" href="javascript:;">
+                wwuwuuwuwuwuwu
+              </a>
+              <div class="coins-item">
+                <a href="javascript:;">
+                  <span class="coin-item__text">硬币:</span>
+                  <span class="coin-item__num">185</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="coin-item__text">B币:</span>
+                  <span class="coin-item__num">0</span>
+                </a>
+              </div>
+              <div class="level-item">
+                <div class="level-item-detail">
+                  <div></div>
+                  <div class="level-bar">
+                    <div class="bar-background"></div>
+                    <div class="level-growup"></div>
+                  </div>
+                  <div></div>
+                </div>
+                <div class="level-item-description">
+                  当前成长11195，距离升级lv.6还需要17605
+                </div>
+              </div>
+              <div class="counts-item">
+                <a href="javascript:;">
+                  <div class="item-count">230000000</div>
+                  <div class="item-description">关注</div>
+                </a>
+                <a href="javascript:;">
+                  <div class="item-count">0</div>
+                  <div class="item-description">粉丝</div>
+                </a>
+                <a href="javascript:;">
+                  <div class="item-count">111111</div>
+                  <div class="item-description">动态</div>
+                </a>
+              </div>
+              <div class="detail-box-list">
+                <a href="javascript:;">
+                  <div>
+                    <i class="fas fa-angry"></i>
+                    <span>个人中心</span>
+                  </div>
+                </a>
+                <a href="javascript:;">
+                  <div>
+                    <i class="fas fa-dizzy"></i>
+                    <span>投稿管理</span>
+                  </div>
+                </a>
+                <a href="javascript:;">
+                  <div>
+                    <i class="fas fa-flushed"></i>
+                    <span>B币钱包</span>
+                  </div>
+                </a>
+                <a href="javascript:;">
+                  <div>
+                    <i class="fas fa-frown"></i>
+                    <span>订单中心</span>
+                  </div>
+                </a>
+                <a href="javascript:;">
+                  <div>
+                    <i class="fas fa-frown-open"></i>
+                    <span>直播中心</span>
+                  </div>
+                </a>
+                <a href="javascript:;">
+                  <div>
+                    <i class="fas fa-grimace"></i>
+                    <span>我的课程</span>
+                  </div>
+                </a>
+                <div class="list-line"></div>
+                <a href="javascript:;">
+                  <div>
+                    <i class="fas fa-grin"></i>
+                    <span>退出登录</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a class="animation-jumpupi" href="javascript:;">
+            <i class="iconfont icon-wodedahuiyuan"></i>
+            <span class="span-block">大会员</span>
+          </a>
+        </li>
+        <li>
+          <a class="animation-jumpupi newmessage" href="javascript:;">
+            <i class="iconfont icon-xiaoxi"></i>
+            <span class="span-block">消息</span>
+          </a>
+        </li>
+        <li>
+          <a class="animation-jumpupi newmessage" href="javascript:;">
+            <i class="iconfont icon-dongtai"></i>
+            <span class="span-block">动态</span>
+          </a>
+        </li>
+        <li>
+          <a class="animation-jumpupi" href="javascript:;">
+            <i class="iconfont icon-shoucang"></i>
+            <span class="span-block">收藏</span>
+          </a>
+        </li>
+        <li>
+          <a class="animation-jumpupi" href="javascript:;">
+            <i class="iconfont icon-lishi1"></i>
+            <span class="span-block">历史</span>
+          </a>
+        </li>
+        <li>
+          <a class="animation-jumpupi" href="javascript:;">
+            <i class="iconfont icon-bulb"></i>
+            <span class="span-block">创作中心</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;">
+            <i class="iconfont icon-upload"></i>
+            <span>投稿</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <main>
+    <div class="main-navbar main-container">
+      <ul class="main-navbar-left">
+        <li class="navbar-left-item dynamic-item">
+          <a href="javascript:;">
+            <div class="dynamic-img">
+              <picture>
+                <source srcset="./img/main-navbar/navbar-left/1.jpg@92w_92h.webp" type="image/webp">
+                <img src="./img/main-navbar/navbar-left/1.jpg" alt="">
+              </picture>
+            </div>
+            <span>动态</span>
+          </a>
+        </li>
+        <li class="navbar-left-item hot-item">
+          <a href="javascript:;">
+            <div class="hot-icon">
+              <i class="iconfont icon-fire"></i>
+            </div>
+            <span>热门</span>
+          </a>
+        </li>
+        <li class="navbar-left-item channel-item">
+          <a href="javascript:;">
+            <div class="channel-icon">
+              <i class="iconfont icon-CirclesThree"></i>
+            </div>
+            <span>频道</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="main-navbar-middle line">
+      </ul>
+      <ul class="main-navbar-right">
+        <li class="navbar-right-item">
+          <a href="javascript:;">
+            <i class="fas fa-smile"></i>
+            <span class="letter-space">专栏</span>
+          </a>
+        </li>
+        <li class="navbar-right-item">
+          <a href="javascript:;">
+            <i class="fas fa-smile"></i>
+            <span  class="letter-space">活动</span>
+          </a>
+        </li>
+        <li class="navbar-right-item">
+          <a href="javascript:;">
+            <i class="fas fa-smile"></i>
+            <span>社区中心</span>
+          </a>
+        </li>
+        <li class="navbar-right-item">
+          <a href="javascript:;">
+            <i class="fas fa-smile"></i>
+            <span class="letter-space">直播</span>
+          </a>
+        </li>
+        <li class="navbar-right-item">
+          <a href="javascript:;">
+            <i class="fas fa-smile"></i>
+            <span class="letter-space">课堂</span>
+          </a>
+        </li>
+        <li class="navbar-right-item">
+          <a href="javascript:;">
+            <i class="fas fa-smile"></i>
+            <span>新歌热榜</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <div class="main-container">
+      <span>该页面仅供学习使用，不支持在商业用途;如有侵权请联系本人删除，谢谢！！！</span>
+      <dl>
+        <dt>页面适配完成部分(可能有错漏之处未能发现)：</dt>
+        <dd>1.请用鼠标滚轮改变页面百分比大小，观察页面布局变化</dd>
+        <dd>2.请用鼠标在顶部导航栏处移动，有隐藏部分显示</dd>
+        <dt>页面完成度略低：</dt>
+        <dd>1.个人认为作为考验CSS、HTML、JS的<font style="color: red;">基础</font>应用是足够的</dd>
+        <dd>2.后期的框架使用，不应将时间花费在静态页面的实现上</dd>
+        <dd>3.目前还需要学习其它方面知识使页面的完成度更高以及提高从用户角度出发的操作流畅度</dd>
+		<dt>为什么不用README：</dt>
+		<dd>github网络连接速度感人，暂时不作为优先学习方向</dd>
+      </dl>
+    </div>
+  </footer>
+</body>
+</html>

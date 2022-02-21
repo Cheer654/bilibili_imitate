@@ -1,0 +1,114 @@
+{
+  "id": "3161051",
+  "name": "bilibili",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4936460",
+      "name": "fire",
+      "font_class": "fire",
+      "unicode": "e842",
+      "unicode_decimal": 59458
+    },
+    {
+      "icon_id": "23562398",
+      "name": "CirclesThree",
+      "font_class": "CirclesThree",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "9384063",
+      "name": "历史",
+      "font_class": "lishi1",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "18164105",
+      "name": "电灯,电灯,发光,光,灯泡,想法",
+      "font_class": "bulb",
+      "unicode": "e856",
+      "unicode_decimal": 59478
+    },
+    {
+      "icon_id": "1118",
+      "name": "文件",
+      "font_class": "wenjian",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1217",
+      "name": "尴尬",
+      "font_class": "ganga",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3979426",
+      "name": "音乐娱乐",
+      "font_class": "yinleyule",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "4890463",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "11488156",
+      "name": "upload",
+      "font_class": "upload",
+      "unicode": "e76b",
+      "unicode_decimal": 59243
+    },
+    {
+      "icon_id": "15657515",
+      "name": "投稿",
+      "font_class": "tougao",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "17522286",
+      "name": "bilibili-line",
+      "font_class": "bilibili-line",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "2377405",
+      "name": "我的大会员",
+      "font_class": "wodedahuiyuan",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "5835483",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "11372701",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e8b9",
+      "unicode_decimal": 59577
+    },
+    {
+      "icon_id": "12129940",
+      "name": "动态",
+      "font_class": "dongtai",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    }
+  ]
+}
